@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Epilogue';
+    font-style: normal;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #FDF0E9;
+    font-family: "Epilogue" , "sans-serif " ;
+    outline: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/* common css */
+::after,::before{
+    box-sizing: border-box;
+}
+
+.container{
+ max-width: 1200px;
+ padding: 0 15px;
+ margin: 0 auto;
+ width: 100%;
+
+}
+
+#section1{
+    background: #28293E;
+}
+
+ul,li{
+    display: flex;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 20px;
+    padding: 10px 30px;
+    background: #28293E;
+}
+
+#menu{
+    color: white;
+    margin-top: 20px;
+}
+
+#contactBtn{
+    margin-top: 10px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    float: right;
+    margin-left: 130px;
+}
+/* banner Section */
+
+#bannerSection  {
+    background-color: #28293E;
+}
+
+#bannerSection >.container > .leftDiv{
+    display: inline;
+    margin-left: 36px;
+    width: 513px;
+    float: left;
+    
+}
+
+#bannerSection >  .container >.leftDiv> h5{
+    color: #EF6D58;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+#bannerSection > .container >.leftDiv>  h1{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 80px;
+    color: white;
+    background: #28293E;
+
+}
+
+#bannerSection > .container >.leftDiv> .btnHW{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #EF6D58;
+    border-radius: 6px;
+    width: 154px;
+    height: 48px;
+    left: 135px;
+    top: 608px;
+    color: white;
+    text-align: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+#bannerSection > .container >.leftDiv> .btnCU{
+        
+    position: absolute;
+    width: 88px;
+    height: 32px;
+    left: 335px;
+    top: 616px;
+
+    /* Text */
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+#bannerSection > .container >.leftDiv> p{
+    color: white;
+}
+
+#bannerSection > .container >.leftDiv> .MetaInc{
+/* Bitmap */
+position: absolute;
+width: 38px;
+height: 43px;
+left: 139px;
+top: 773px;
+background: url(img/Bitmap.svg);
+display: inline;
+float: left;
+}
+
+#bannerSection > .container >.leftDiv> .text{
+margin-left: 90px;
+}
+
+/* section 3 .........*/
+
+#section3  {
+    padding-top: 30px;
+    /* background: #E5E5E5;; */
+}
+
+#section3 > .container {
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+
+#section3 > .container > .div1{
+    width: 147px;
+    height: 42px;
+    left: 135px;
+    display: inline;
+    margin:40px;
+}
+
+#section3 > .container > .div2{
+    display: inline;
+    width: 147px;
+    height: 42px;
+    margin-left: 110px;
+}
+
+#section3 > .container > .div3{
+    display: inline;
+    width: 147px;
+    height: 42px;
+    margin-left: 110px;
+}
+
+#section3 > .container > .div4{
+    display: inline;
+    width: 108px;
+    height: 32px;
+    margin-left: 120px;
+}
+
+#section3 > .container > .div5{
+    display: inline;
+    width: 147px;
+    height: 42px;
+    margin-left: 110px;
+}
+
+
+#section3 > .container >.leftDiv{
+    display: inline;
+    float: left;
+    padding-right: 90px;
+}
+
+
+#section3 > .container >.rightDiv{
+    display: inline;
+    float: left;
+    width: 540px;
+    
+    
+}
+
+#section3 > .container >.rightDiv > .about{
+    color: #EF6D58;
+    margin-left: 60px;
+}
+
+#section3 > .container >.rightDiv > h2{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    /* or 114% */
+
+    letter-spacing: -1px;
+
+    /* Text_Dark */
+
+    color: #391400;
+}
+
+#section3 > .container >.rightDiv > .text{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+
+/* Text_Dark */
+
+color: #391400;
+}
+
+#section3 > .container >.rightDiv > .text{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+
+/* Text_Dark_Gray */
+
+color: rgba(57, 20, 0, 0.64);
+
+}
+
+#section3 > .container >.rightDiv > .btn{
+    padding: 15px 30px;
+    color: #391400;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+    border-radius: 6px;
+}
+
+/* section4...... */
+
+#section4{
+    padding-top: 60px;
+}
+
+#section4 >.container> .containerDiv{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section4 >.container> .containerDiv > div{
+    width: 391px;
+    height: 176px;
+    display:inline
+}
